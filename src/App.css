@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap');
+
+.App {
+  text-align: left;
+  font-family: 'Chivo', sans-serif;
+  color: black;
+}
+
+.Title {
+  background-color: white;
+  font-size: 24px;
+  padding-left: 40px;
+
+}
+
+.List {
+  background-color: #C6E2E9;
+  font-size: 20px;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input{
+  /* como colocar o fundo no estado desmarcado pra azul??? */
+  background-color: #C6E2E9;
+  margin-bottom: 1px;
+}
