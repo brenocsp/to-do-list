@@ -19,7 +19,6 @@ function App() {
       }
       return it;
     });
-
     setItems(itensAtualizados);
   }
 
