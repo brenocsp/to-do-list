@@ -1,30 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap');
 
-.App {
-  text-align: left;
-  font-family: 'Chivo', sans-serif;
-  color: black;
-}
-
-.Title {
-  background-color: white;
-  font-size: 24px;
-  padding-left: 40px;
+.container {
+  margin: 0;
+  max-width: 100%;
+  height: 700px;
+  background-color: #C6E2E9;
+  padding-left: 56px;
+  padding-top: 61px;
 
 }
 
-.List {
+.tittle {
+  padding-left: 56px;
+  padding-top: 60px;
+  padding: 60px 0 20px 56px;
+  margin: 0;
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+}
+
+.list {
   background-color: #C6E2E9;
   font-size: 20px;
   height: 100vh;
   padding-top: 30px;
 }
 
-ul {
-    list-style-type: none;
+.done {
+  text-decoration: line-through;
 }
 
-input{
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+input {
   /* como colocar o fundo no estado desmarcado pra azul??? */
   background-color: #C6E2E9;
   margin-bottom: 1px;
