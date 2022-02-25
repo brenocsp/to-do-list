@@ -22,13 +22,6 @@
   text-transform: uppercase;
 }
 
-.list {
-  background-color: #C6E2E9;
-  font-size: 20px;
-  height: 100vh;
-  padding-top: 30px;
-}
-
 .done {
   text-decoration: line-through;
 }
@@ -40,10 +33,29 @@
 ul {
   list-style-type: none;
   padding: 0;
+  font-size: 22px;
 }
 
 input {
-  /* como colocar o fundo no estado desmarcado pra azul??? */
   background-color: #C6E2E9;
-  margin-bottom: 1px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  font-size: 22px;
+  font-family: 'Chivo';
+  font-style: normal;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+img {
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+textarea:focus, input:focus{
+  outline: none;
 }
